@@ -88,15 +88,15 @@ const characterInfo = {
         affiliation: "The Eremites"
     },
     diluc: {
-        name: "Dehya",
+        name: "Diluc",
         weapon: "Claymore",
         element: "Pyro",
-        region: "Sumeru",
-        version: "3.5",
-        talents: "Praxis",
-        boss: "Puppet Strings",
-        stat: "HP",
-        affiliation: "The Eremites"
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Resistance",
+        boss: "Dvalin's Plume",
+        stat: "CRIT Rate",
+        affiliation: "Dawn Winery"
     },
 };
 
