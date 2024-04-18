@@ -43,16 +43,60 @@ const characterInfo = {
         stat: "CRIT DMG",
         affiliation: "Yashiro Commission"
     },
-    ayato: {
-        name: "Kamisato Ayato",
-        weapon: "Sword",
+    baizhu: {
+        name: "Baizhu",
+        weapon: "Catalyst",
+        element: "Dendro",
+        region: "Liyue",
+        version: "3.6",
+        talents: "Gold",
+        boss: "World­span Fern",
+        stat: "HP",
+        affiliation: "Bubu Pharmacy"
+    },
+    tartaglia: {
+        name: "Tartaglia",
+        weapon: "Bow",
         element: "Hydro",
-        region: "Inazuma",
-        version: "2.6",
-        talents: "Elegance",
+        region: "Snezhnaya",
+        version: "1.1",
+        talents: "Freedom",
+        boss: "Shard of a Foul Legacy",
+        stat: "Hydro DMG Bonus",
+        affiliation: "Fatui"
+    },
+    cyno: {
+        name: "Cyno",
+        weapon: "Polearm",
+        element: "Electro",
+        region: "Sumeru",
+        version: "3.1",
+        talents: "Admonition",
         boss: "Mudra of the Malefic General",
         stat: "CRIT DMG",
-        affiliation: "Yashiro Commission"
+        affiliation: "Temple of Silence"
+    },
+    dehya: {
+        name: "Dehya",
+        weapon: "Claymore",
+        element: "Pyro",
+        region: "Sumeru",
+        version: "3.5",
+        talents: "Praxis",
+        boss: "Puppet Strings",
+        stat: "HP",
+        affiliation: "The Eremites"
+    },
+    diluc: {
+        name: "Dehya",
+        weapon: "Claymore",
+        element: "Pyro",
+        region: "Sumeru",
+        version: "3.5",
+        talents: "Praxis",
+        boss: "Puppet Strings",
+        stat: "HP",
+        affiliation: "The Eremites"
     },
 };
 
