@@ -1,28 +1,10 @@
 body {
   margin: 0;
-  padding-top: 70px;
   font-family: 'Philosopher', sans-serif;
   background-image: url("images/BG_starry.png");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-}
-
-header {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #000000;
-  padding: 20px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
-
-.header-content {
-  margin: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 h1 {
@@ -32,24 +14,26 @@ h1 {
 nav ul {
   list-style: none;
   display: flex;
+  flex-direction: column; /* Menu goes top to bottom */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
   margin: 0;
   padding: 0;
 }
 
 nav li {
-  font-size: 14px;
-  margin-left: 20px;
-  margin-right: 30px;
+  font-size: 24px; /* Increase font size for better visibility */
+  margin-top: 20px; /* Add margin between menu items */
 }
 
 nav a {
   text-decoration: none;
-  font-size: 16px;
-  font-weight: normal;
+  color: #fff; /* Change link color */
+  font-weight: bold; /* Make links bold */
 }
 
-nav li.active a {
-  color: #D2BC8E;
+nav a:hover {
+  color: #D2BC8E; /* Change color on hover */
 }
 
 .content {
