@@ -6,8 +6,8 @@ const characterInfo = {
         region: "aaaaa",
         version: "aaaaa",
         talents: "aaaaa",
-        stat: "aaaaa",
         boss: "aaaaa",
+        stat: "aaaaa",
         affiliation: "aaaaa"
     },
     albedo: {
@@ -17,8 +17,8 @@ const characterInfo = {
         region: "Mondstadt",
         version: "1.2",
         talents: "Ballad",
-        stat: "Geo DMG Bonus",
         boss: "Tusk of Monoceros Caeli",
+        stat: "Geo DMG Bonus",
         affiliation: "Knights of Favonius"
     },
     alhaitham: {
@@ -28,9 +28,31 @@ const characterInfo = {
         region: "Sumeru",
         version: "3.4",
         talents: "Ingenuity",
-        stat: "Dendro DMG Bonus",
         boss: "Mirror of Mushin",
+        stat: "Dendro DMG Bonus",
         affiliation: "Sumeru Akademiya"
+    },
+    ayaka: {
+        name: "Ayaka",
+        weapon: "Sword",
+        element: "Cryo",
+        region: "Inazuma",
+        version: "2.0",
+        talents: "Elegance",
+        boss: "Bloodjade Branch",
+        stat: "CRIT DMG",
+        affiliation: "Yashiro Commission"
+    },
+    ayato: {
+        name: "Kamisato Ayato",
+        weapon: "Sword",
+        element: "Hydro",
+        region: "Inazuma",
+        version: "2.6",
+        talents: "Elegance",
+        boss: "Mudra of the Malefic General",
+        stat: "CRIT DMG",
+        affiliation: "Yashiro Commission"
     },
 };
 
