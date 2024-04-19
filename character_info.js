@@ -154,15 +154,37 @@ const characterInfo = {
         affiliation: "Arataki Gang"
     },
     jean: {
-        name: "Jean ",
+        name: "Jean",
         weapon: "Sword",
         element: "Anemo",
         region: "Mondstadt",
         version: "1.0",
         talents: "Resistance",
-        boss: "Knights of Favonius",
+        boss: "Dvalin's Plume",
         stat: "Healing Bonus",
         affiliation: "Knights of Favonius"
+    },
+    kazuha: {
+        name: "Kaedehara Kazuha",
+        weapon: "Sword",
+        element: "Anemo",
+        region: "Inazuma",
+        version: "1.6",
+        talents: "Diligence",
+        boss: "Glided Scale",
+        stat: "Elemental Mastery",
+        affiliation: "The Crux"
+    },
+    keqing: {
+        name: "Keqing",
+        weapon: "Sword",
+        element: "Electro",
+        region: "Liyue",
+        version: "1.0",
+        talents: "Prosperity",
+        boss: "Ring of Boreas",
+        stat: "CRIT DMG",
+        affiliation: "Liyue Qixing"
     },
 };
 
