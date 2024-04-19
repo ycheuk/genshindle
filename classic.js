@@ -1,27 +1,45 @@
 // classic.js
 
+let randomCharacter; // Declare a variable to store the randomly chosen character
+
+function initializeGame() {
+    const characterKeys = Object.keys(characterInfo);
+    randomCharacter = characterInfo[characterKeys[Math.floor(Math.random() * characterKeys.length)]];
+}
+
 function checkGuess() {
     const userInput = document.getElementById("characterInput").value.trim().toLowerCase();
 
-    // Randomly choose a character from characterInfo object
-    const characterKeys = Object.keys(characterInfo);
-    const randomCharacter = characterInfo[characterKeys[Math.floor(Math.random() * characterKeys.length)]];
+    if (!randomCharacter) {
+        initializeGame(); // Generate a random character if it's not already generated
+    }
 
     if (userInput === randomCharacter.name.toLowerCase()) {
         document.getElementById("result").innerText = "Congratulations! You guessed the character correctly!";
+        randomCharacter = null; // Reset randomCharacter after correct guess
     } else {
         const traitsUserGuessed = getCharacterTraits(userInput);
-        const traitsRandomCharacter = getCharacterTraits(randomCharacter.name);
-        document.getElementById("result").innerText = `You guessed "${userInput}" but it's not correct. Here are the traits:\n\n${traitsUserGuessed}\n\nHere are the traits of the randomly chosen character:\n\n${traitsRandomCharacter}`;
+        const traitsTable = generateTraitsTable(traitsUserGuessed);
+        document.getElementById("traitsTable").innerHTML = traitsTable;
     }
 }
 
 function getCharacterTraits(characterName) {
     const character = characterInfo[characterName.toLowerCase()];
-    let traits = `Name: ${character.name}\n`;
-    traits += `Weapon: ${character.weapon}\n`;
-    traits += `Element: ${character.element}\n`;
-    traits += `Region: ${character.region}\n`;
-    // Add more traits as needed
-    return traits;
+    return character;
 }
+
+function generateTraitsTable(character) {
+    let tableHTML = "<tr><th>Trait</th><th>Value</th></tr>";
+    for (const trait in character) {
+        if (trait !== "name") {
+            const isMatching = character[trait] === randomCharacter[trait];
+            const backgroundClass = isMatching ? "green-background" : "red-background";
+            tableHTML += `<tr><td>${trait}</td><td class="${backgroundClass}">${character[trait]}</td></tr>`;
+        }
+    }
+    return tableHTML;
+}
+
+// Initialize the game when the page loads
+initializeGame();

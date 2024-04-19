@@ -56,3 +56,22 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.traits-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.traits-table th, .traits-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Add classes for green and red backgrounds */
+.green-background {
+  background-color: lightgreen;
+}
+
+.red-background {
+  background-color: lightcoral;
+}
