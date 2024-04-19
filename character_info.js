@@ -219,6 +219,61 @@ const characterInfo = {
         stat: "Energy Recharge",
         affiliation: "Mondstadt"
     },
+    nahida: {
+        name: "Nahida",
+        weapon: "Catalyst",
+        element: "Dendro",
+        region: "Sumeru",
+        version: "3.2",
+        talents: "Ingenuity",
+        boss: "Puppet Strings",
+        stat: "Elemental Mastery",
+        affiliation: "Sumeru City"
+    },
+    navia: {
+        name: "Navia",
+        weapon: "Claymore",
+        element: "Geo",
+        region: "Fontaine",
+        version: "4.3",
+        talents: "Equity",
+        boss: "Lightless Silk String",
+        stat: "CRIT DMG",
+        affiliation: "Spina di Rosula"
+    },
+    neuvillette: {
+        name: "Navia",
+        weapon: "Catalyst",
+        element: "Hydro",
+        region: "Fontaine",
+        version: "4.1",
+        talents: "Equity",
+        boss: "Ever­amber",
+        stat: "CRIT DMG",
+        affiliation: "Court of Fontaine"
+    },
+    nilou: {
+        name: "Nilou",
+        weapon: "Sword",
+        element: "Hydro",
+        region: "Sumeru",
+        version: "3.1",
+        talents: "Praxis",
+        boss: "Tears of the Calamitous God",
+        stat: "HP",
+        affiliation: "Zubayr Theater"
+    },
+    qiqi: {
+        name: "Qiqi",
+        weapon: "Sword",
+        element: "Cryo",
+        region: "Liyue",
+        version: "1.0",
+        talents: "Prosperity",
+        boss: "Tail of Boreas",
+        stat: "Healing Bonus",
+        affiliation: "Bubu Pharmacy"
+    },
 };
 
 // You can also export the characterInfo object to use it in other JavaScript files
