@@ -274,17 +274,6 @@ const characterInfo = {
         stat: "Healing Bonus",
         affiliation: "Bubu Pharmacy"
     },
-    qiqi: {
-        name: "Qiqi",
-        weapon: "Sword",
-        element: "Cryo",
-        region: "Liyue",
-        version: "1.0",
-        talents: "Prosperity",
-        boss: "Tail of Boreas",
-        stat: "Healing Bonus",
-        affiliation: "Bubu Pharmacy"
-    },
 };
 
 // You can also export the characterInfo object to use it in other JavaScript files
