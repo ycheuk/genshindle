@@ -131,6 +131,39 @@ const characterInfo = {
         stat: "CRIT DMG",
         affiliation: "Yuehai Pavilion"
     },
+    hu_tao: {
+        name: "Hu Tao",
+        weapon: "Polearm",
+        element: "Pyro",
+        region: "Liyue",
+        version: "1.3",
+        talents: "Diligence",
+        boss: "Shard of a Foul Legacy",
+        stat: "CRIT DMG",
+        affiliation: "Wangsheng Funeral Parlor"
+    },
+    itto: {
+        name: "Itto",
+        weapon: "Claymore",
+        element: "Geo",
+        region: "Inazuma",
+        version: "2.3",
+        talents: "Elegance",
+        boss: "Ashen Heart",
+        stat: "CRIT Rate",
+        affiliation: "Arataki Gang"
+    },
+    jean: {
+        name: "Jean ",
+        weapon: "Sword",
+        element: "Anemo",
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Resistance",
+        boss: "Knights of Favonius",
+        stat: "Healing Bonus",
+        affiliation: "Knights of Favonius"
+    },
 };
 
 // You can also export the characterInfo object to use it in other JavaScript files
