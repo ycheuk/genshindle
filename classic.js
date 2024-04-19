@@ -19,10 +19,7 @@ function checkGuess() {
         randomCharacter = null; // Reset randomCharacter after correct guess
     } else {
         const traitsUserGuessed = getCharacterTraits(userInput);
-        const traitsNamesRow = document.getElementById("traitNamesRow");
-        const traitsValuesRow = document.getElementById("traitValuesRow");
-        traitsNamesRow.innerHTML = generateTraitsNamesRow();
-        traitsValuesRow.innerHTML = generateTraitsValuesRow(traitsUserGuessed);
+        displayCharacterTraits(traitsUserGuessed);
     }
 }
 
@@ -31,26 +28,30 @@ function getCharacterTraits(characterName) {
     return character;
 }
 
-function generateTraitsNamesRow() {
-    let rowHTML = "";
-    for (const trait in randomCharacter) {
-        if (trait !== "name") {
-            rowHTML += `<td>${trait}</td>`;
+function displayCharacterTraits(character) {
+    const traitsTable = document.getElementById("traitsTable");
+
+    // Create a new row for trait names if it's the first guess
+    if (traitsTable.rows.length === 0) {
+        const traitNamesRow = traitsTable.insertRow();
+        for (const trait in randomCharacter) {
+            if (trait !== "name") {
+                traitNamesRow.insertCell().textContent = trait;
+            }
         }
     }
-    return rowHTML;
-}
 
-function generateTraitsValuesRow(character) {
-    let rowHTML = "";
+    // Create a new row for trait values for the guessed character
+    const traitValuesRow = traitsTable.insertRow();
     for (const trait in character) {
         if (trait !== "name") {
             const isMatching = character[trait] === randomCharacter[trait];
             const backgroundClass = isMatching ? "green-background" : "red-background";
-            rowHTML += `<td class="${backgroundClass}">${character[trait]}</td>`;
+            const cell = traitValuesRow.insertCell();
+            cell.textContent = character[trait];
+            cell.classList.add(backgroundClass);
         }
     }
-    return rowHTML;
 }
 
 // Initialize the game when the page loads
