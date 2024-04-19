@@ -19,8 +19,8 @@ function checkGuess() {
         randomCharacter = null; // Reset randomCharacter after correct guess
     } else {
         const traitsUserGuessed = getCharacterTraits(userInput);
-        const traitsTable = generateTraitsTable(traitsUserGuessed);
-        document.getElementById("traitsTable").innerHTML = traitsTable;
+        const traitsRow = document.getElementById("traitsRow");
+        traitsRow.innerHTML = generateTraitsRow(traitsUserGuessed);
     }
 }
 
@@ -29,16 +29,16 @@ function getCharacterTraits(characterName) {
     return character;
 }
 
-function generateTraitsTable(character) {
-    let tableHTML = "<tr><th>Trait</th><th>Value</th></tr>";
+function generateTraitsRow(character) {
+    let rowHTML = "";
     for (const trait in character) {
         if (trait !== "name") {
             const isMatching = character[trait] === randomCharacter[trait];
             const backgroundClass = isMatching ? "green-background" : "red-background";
-            tableHTML += `<tr><td>${trait}</td><td class="${backgroundClass}">${character[trait]}</td></tr>`;
+            rowHTML += `<td class="${backgroundClass}">${trait}: ${character[trait]}</td>`;
         }
     }
-    return tableHTML;
+    return rowHTML;
 }
 
 // Initialize the game when the page loads
