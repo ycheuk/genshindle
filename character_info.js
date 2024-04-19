@@ -98,6 +98,39 @@ const characterInfo = {
         stat: "CRIT Rate",
         affiliation: "Dawn Winery"
     },
+    eula: {
+        name: "Eula",
+        weapon: "Claymore",
+        element: "Cryo",
+        region: "Mondstadt",
+        version: "1.5",
+        talents: "Resistance",
+        boss: "Dragon Lord's Crown",
+        stat: "CRIT DMG",
+        affiliation: "Knights of Favonius"
+    },
+    furina: {
+        name: "Furina",
+        weapon: "Sword",
+        element: "Hydro",
+        region: "Fontaine",
+        version: "4.2",
+        talents: "Justice",
+        boss: "Lightless Mass",
+        stat: "CRIT Rate",
+        affiliation: "Court of Fontaine"
+    },
+    ganyu: {
+        name: "Ganyu",
+        weapon: "Bow",
+        element: "Cryo",
+        region: "Liyue",
+        version: "1.2",
+        talents: "Diligence",
+        boss: "Shadow of the Warrior",
+        stat: "CRIT DMG",
+        affiliation: "Yuehai Pavilion"
+    },
 };
 
 // You can also export the characterInfo object to use it in other JavaScript files
