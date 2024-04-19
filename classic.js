@@ -1,6 +1,4 @@
-// classic.js
-
-let randomCharacter; // Declare a variable to store the randomly chosen character
+let randomCharacter;
 
 function initializeGame() {
     const characterKeys = Object.keys(characterInfo);
@@ -11,12 +9,12 @@ function checkGuess() {
     const userInput = document.getElementById("characterInput").value.trim().toLowerCase();
 
     if (!randomCharacter) {
-        initializeGame(); // Generate a random character if it's not already generated
+        initializeGame();
     }
 
     if (userInput === randomCharacter.name.toLowerCase()) {
         document.getElementById("result").innerText = "Congratulations! You guessed the character correctly!";
-        randomCharacter = null; // Reset randomCharacter after correct guess
+        randomCharacter = null;
     } else {
         const traitsUserGuessed = getCharacterTraits(userInput);
         displayCharacterTraits(traitsUserGuessed);
@@ -31,7 +29,6 @@ function getCharacterTraits(characterName) {
 function displayCharacterTraits(character) {
     const traitsTable = document.getElementById("traitsTable");
 
-    // Create a new row for trait names if it's the first guess
     if (traitsTable.rows.length === 0) {
         const traitNamesRow = traitsTable.insertRow();
         for (const trait in randomCharacter) {
@@ -41,7 +38,6 @@ function displayCharacterTraits(character) {
         }
     }
 
-    // Create a new row for trait values for the guessed character
     const traitValuesRow = traitsTable.insertRow();
     for (const trait in character) {
         if (trait !== "name") {
@@ -54,5 +50,4 @@ function displayCharacterTraits(character) {
     }
 }
 
-// Initialize the game when the page loads
 initializeGame();
