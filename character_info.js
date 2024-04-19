@@ -1,15 +1,4 @@
 const characterInfo = {
-    template: {
-        name: "aaaaa",
-        weapon: "aaaaa",
-        element: "aaaaa",
-        region: "aaaaa",
-        version: "aaaaa",
-        talents: "aaaaa",
-        boss: "aaaaa",
-        stat: "aaaaa",
-        affiliation: "aaaaa"
-    },
     albedo: {
         name: "Albedo",
         weapon: "Sword",
