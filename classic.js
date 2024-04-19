@@ -19,8 +19,10 @@ function checkGuess() {
         randomCharacter = null; // Reset randomCharacter after correct guess
     } else {
         const traitsUserGuessed = getCharacterTraits(userInput);
-        const traitsRow = document.getElementById("traitsRow");
-        traitsRow.innerHTML = generateTraitsRow(traitsUserGuessed);
+        const traitsNamesRow = document.getElementById("traitNamesRow");
+        const traitsValuesRow = document.getElementById("traitValuesRow");
+        traitsNamesRow.innerHTML = generateTraitsNamesRow();
+        traitsValuesRow.innerHTML = generateTraitsValuesRow(traitsUserGuessed);
     }
 }
 
@@ -29,13 +31,23 @@ function getCharacterTraits(characterName) {
     return character;
 }
 
-function generateTraitsRow(character) {
+function generateTraitsNamesRow() {
+    let rowHTML = "";
+    for (const trait in randomCharacter) {
+        if (trait !== "name") {
+            rowHTML += `<td>${trait}</td>`;
+        }
+    }
+    return rowHTML;
+}
+
+function generateTraitsValuesRow(character) {
     let rowHTML = "";
     for (const trait in character) {
         if (trait !== "name") {
             const isMatching = character[trait] === randomCharacter[trait];
             const backgroundClass = isMatching ? "green-background" : "red-background";
-            rowHTML += `<td class="${backgroundClass}">${trait}: ${character[trait]}</td>`;
+            rowHTML += `<td class="${backgroundClass}">${character[trait]}</td>`;
         }
     }
     return rowHTML;
