@@ -100,5 +100,4 @@ const characterInfo = {
     },
 };
 
-// You can also export the characterInfo object to use it in other JavaScript files
 export default characterInfo;
