@@ -274,6 +274,17 @@ const characterInfo = {
         stat: "Healing Bonus",
         affiliation: "Bubu Pharmacy"
     },
+    raiden_shogun: {
+        name: "Raiden Shogun",
+        weapon: "Polearm",
+        element: "Electro",
+        region: "Inazuma",
+        version: "1.0",
+        talents: "Prosperity",
+        boss: "Tail of Boreas",
+        stat: "Healing Bonus",
+        affiliation: "Bubu Pharmacy"
+    },
 };
 
 // You can also export the characterInfo object to use it in other JavaScript files
