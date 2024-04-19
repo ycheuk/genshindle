@@ -175,6 +175,50 @@ const characterInfo = {
         stat: "CRIT DMG",
         affiliation: "Liyue Qixing"
     },
+    klee: {
+        name: "Klee",
+        weapon: "Catalyst",
+        element: "Pyro",
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Freedom",
+        boss: "Ring of Boreas",
+        stat: "Pyro DMG Bonus",
+        affiliation: "Knights of Favonius"
+    },
+    kokomi: {
+        name: "Sangonomiya Kokomi",
+        weapon: "Catalyst",
+        element: "Hydro",
+        region: "Inazuma",
+        version: "2.1",
+        talents: "Transience",
+        boss: "Hellfire Butterfly",
+        stat: "Hydro DMG Bonus",
+        affiliation: "Watatsumi Island"
+    },
+    lyney: {
+        name: "Lyney",
+        weapon: "Bow",
+        element: "Pyro",
+        region: "Fontaine",
+        version: "4.0",
+        talents: "Equity",
+        boss: "Primor­dial Green­bloom",
+        stat: "CRIT Rate",
+        affiliation: "Hotel Bouffes d'ete"
+    },
+    mona: {
+        name: "Mona",
+        weapon: "Catalyst",
+        element: "Hydro",
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Resistance",
+        boss: "Ring of Boreas",
+        stat: "Energy Recharge",
+        affiliation: "Mondstadt"
+    },
 };
 
 // You can also export the characterInfo object to use it in other JavaScript files
