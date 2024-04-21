@@ -384,6 +384,17 @@ const characterInfo = {
         stat: "CRIT Rate",
         affiliation: "Yanshang Teahouse"
     },
+    yoimiya: {
+        name: "Yoimiya",
+        weapon: "Bow",
+        element: "Pyro",
+        region: "Inazuma",
+        version: "2.0",
+        talents: "Transience",
+        boss: "Dragon Lord's Crown",
+        stat: "CRIT Rate",
+        affiliation: "Naganohara Fireworks"
+    },
 };
 
 // export default characterInfo;
