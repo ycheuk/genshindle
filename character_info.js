@@ -406,6 +406,17 @@ const characterInfo = {
         stat: "Geo DMG Bonus",
         affiliation: "Liyue Harbor"
     },
+    amber: {
+        name: "Amber",
+        weapon: "Bow",
+        element: "Pyro",
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Freedom",
+        boss: "Dvalin's Sigh",
+        stat: "ATK",
+        affiliation: "Knights of Favonius"
+    },
 };
 
 // export default characterInfo;
