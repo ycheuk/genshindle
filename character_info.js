@@ -296,16 +296,82 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "Cloud Retainer's Abode"
     },
-    shenhe: {
-        name: "Shenhe",
-        weapon: "Polearm",
-        element: "Cryo",
+    tighnari: {
+        name: "Tighnari",
+        weapon: "Bow",
+        element: "Dendro",
+        region: "Sumeru",
+        version: "3.0",
+        talents: "Admonition",
+        boss: "The Meaning of Aeons",
+        stat: "Dendro DMG Bonus",
+        affiliation: "Gandharva Ville"
+    },
+    venti: {
+        name: "Venti",
+        weapon: "Bow",
+        element: "Anemo",
         region: "Liyue",
-        version: "2.4",
-        talents: "Prosperity",
-        boss: "Hellfire Butterfly",
+        version: "1.0",
+        talents: "Ballad",
+        boss: "Tail of Boreas",
+        stat: "Energy Recharge",
+        affiliation: "Mondstadt"
+    },
+    wanderer: {
+        name: "Wanderer",
+        weapon: "Catalyst",
+        element: "Anemo",
+        region: "Sumeru",
+        version: "3.3",
+        talents: "Praxis",
+        boss: "Daka's Bell",
+        stat: "CRIT Rate",
+        affiliation: "None"
+    },
+    wriothesley: {
+        name: "Wriothesley",
+        weapon: "Catalyst",
+        element: "Cryo",
+        region: "Fontaine",
+        version: "4.1",
+        talents: "Order",
+        boss: "Primor­dial Green­bloom",
+        stat: "CRIT DMG",
+        affiliation: "Fortress of Meropide"
+    },
+    xianyun: {
+        name: "Xianyun",
+        weapon: "Catalyst",
+        element: "Anemo",
+        region: "Liyue",
+        version: "4.4",
+        talents: "Gold",
+        boss: "Lightless Eye of the Maelstrom",
         stat: "ATK",
-        affiliation: "Cloud Retainer's Abode"
+        affiliation: "Mt. Aocang"
+    },
+    xiao: {
+        name: "Xiao",
+        weapon: "Polearm",
+        element: "Anemo",
+        region: "Liyue",
+        version: "1.3",
+        talents: "Prosperity",
+        boss: "Shadow of the Warrior",
+        stat: "CRIT Rate",
+        affiliation: "Liyue Adeptus"
+    },
+    yae_miko: {
+        name: "Yae Miko",
+        weapon: "Catalyst",
+        element: "Electro",
+        region: "Inazuma",
+        version: "2.5",
+        talents: "Light",
+        boss: "The Meaning of Aeons",
+        stat: "CRIT Rate",
+        affiliation: "Grand Narukami Shrine"
     },
 };
 
