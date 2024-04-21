@@ -285,7 +285,28 @@ const characterInfo = {
         stat: "Healing Bonus",
         affiliation: "Bubu Pharmacy"
     },
+    shenhe: {
+        name: "Shenhe",
+        weapon: "Polearm",
+        element: "Cryo",
+        region: "Liyue",
+        version: "2.4",
+        talents: "Prosperity",
+        boss: "Hellfire Butterfly",
+        stat: "ATK",
+        affiliation: "Cloud Retainer's Abode"
+    },
+    shenhe: {
+        name: "Shenhe",
+        weapon: "Polearm",
+        element: "Cryo",
+        region: "Liyue",
+        version: "2.4",
+        talents: "Prosperity",
+        boss: "Hellfire Butterfly",
+        stat: "ATK",
+        affiliation: "Cloud Retainer's Abode"
+    },
 };
 
-// You can also export the characterInfo object to use it in other JavaScript files
 // export default characterInfo;
