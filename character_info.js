@@ -395,6 +395,17 @@ const characterInfo = {
         stat: "CRIT Rate",
         affiliation: "Naganohara Fireworks"
     },
+    zhongli: {
+        name: "Zhongli",
+        weapon: "Polearm",
+        element: "Geo",
+        region: "Liyue",
+        version: "1.1",
+        talents: "Gold",
+        boss: "Tusk of Monoceros Caeli",
+        stat: "Geo DMG Bonus",
+        affiliation: "Liyue Harbor"
+    },
 };
 
 // export default characterInfo;
