@@ -417,6 +417,28 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "Knights of Favonius"
     },
+    barbara: {
+        name: "Barbara",
+        weapon: "Catalyst",
+        element: "Hydro",
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Freedom",
+        boss: "Ring of Boreas",
+        stat: "HP",
+        affiliation: "Knights of Favonius"
+    },
+    beidou: {
+        name: "Beidou",
+        weapon: "Claymore",
+        element: "Electro",
+        region: "Liyue",
+        version: "1.1",
+        talents: "Gold",
+        boss: "Dvalin's Sigh",
+        stat: "Electro DMG Bonus",
+        affiliation: "Knights of Favonius"
+    },
 };
 
 // export default characterInfo;
