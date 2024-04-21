@@ -373,6 +373,17 @@ const characterInfo = {
         stat: "CRIT Rate",
         affiliation: "Grand Narukami Shrine"
     },
+    yelan: {
+        name: "Yelan",
+        weapon: "Bow",
+        element: "Hydro",
+        region: "Liyue",
+        version: "2.7",
+        talents: "Prosperity",
+        boss: "Gilded Scale",
+        stat: "CRIT Rate",
+        affiliation: "Yanshang Teahouse"
+    },
 };
 
 // export default characterInfo;
