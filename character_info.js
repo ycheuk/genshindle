@@ -505,6 +505,17 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "Tianheng Thaumaturges"
     },
+    collei: {
+        name: "Collei",
+        weapon: "Bow",
+        element: "Dendro",
+        region: "Sumeru",
+        version: "3.0",
+        talents: "Praxis",
+        boss: "Tears of the Calamitous God",
+        stat: "ATK",
+        affiliation: "Gandharva Ville"
+    },
 };
 
 // export default characterInfo;
