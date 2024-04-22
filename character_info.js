@@ -433,7 +433,7 @@ const characterInfo = {
         weapon: "Claymore",
         element: "Electro",
         region: "Liyue",
-        version: "1.1",
+        version: "1.0",
         talents: "Gold",
         boss: "Dvalin's Sigh",
         stat: "Electro DMG Bonus",
@@ -482,6 +482,28 @@ const characterInfo = {
         boss: "Lightless Eye of the Maelstrom",
         stat: "HP",
         affiliation: "Special Security and Surveillance Patrol"
+    },
+    chevreuse: {
+        name: "Chevreuse",
+        weapon: "Polearm",
+        element: "Pyro",
+        region: "Fontaine",
+        version: "4.3",
+        talents: "Order",
+        boss: "Lightless Eye of the Maelstrom",
+        stat: "HP",
+        affiliation: "Special Security and Surveillance Patrol"
+    },
+    chongyun: {
+        name: "Chongyun",
+        weapon: "Claymore",
+        element: "Cryo",
+        region: "Liyue",
+        version: "1.0",
+        talents: "Diligence",
+        boss: "Dvalin's Sigh",
+        stat: "ATK",
+        affiliation: "Tianheng Thaumaturges"
     },
 };
 
