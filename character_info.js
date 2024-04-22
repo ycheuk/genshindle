@@ -439,6 +439,28 @@ const characterInfo = {
         stat: "Electro DMG Bonus",
         affiliation: "Knights of Favonius"
     },
+    bennett: {
+        name: "Bennett",
+        weapon: "Sword",
+        element: "Pyro",
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Resistance",
+        boss: "Dvalin's Plume",
+        stat: "Energy Recharge",
+        affiliation: "Adventurers' Guild"
+    },
+    candace: {
+        name: "Candace",
+        weapon: "Polearm",
+        element: "Hydro",
+        region: "Sumeru",
+        version: "3.1",
+        talents: "Admonition",
+        boss: "Tears of the Calamitous God",
+        stat: "HP",
+        affiliation: "Aaru Village"
+    },
 };
 
 // export default characterInfo;
