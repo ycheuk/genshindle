@@ -472,6 +472,17 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "The Steambird"
     },
+    chevreuse: {
+        name: "Chevreuse",
+        weapon: "Polearm",
+        element: "Pyro",
+        region: "Fontaine",
+        version: "4.3",
+        talents: "Order",
+        boss: "Lightless Eye of the Maelstrom",
+        stat: "HP",
+        affiliation: "Special Security and Surveillance Patrol"
+    },
 };
 
 // export default characterInfo;
