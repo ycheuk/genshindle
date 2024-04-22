@@ -461,6 +461,17 @@ const characterInfo = {
         stat: "HP",
         affiliation: "Aaru Village"
     },
+    charlotte: {
+        name: "Charlotte",
+        weapon: "Catalyst",
+        element: "Cryo",
+        region: "Fontaine",
+        version: "4.2",
+        talents: "Justice",
+        boss: "Lightless Silk String",
+        stat: "ATK",
+        affiliation: "The Steambird"
+    },
 };
 
 // export default characterInfo;
