@@ -516,6 +516,28 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "Gandharva Ville"
     },
+    diona: {
+        name: "Diona",
+        weapon: "Bow",
+        element: "Cryo",
+        region: "Monstadt",
+        version: "1.1",
+        talents: "Freedom",
+        boss: "Shard of a Foul Legacy",
+        stat: "Cryo DMG Bonus",
+        affiliation: "The Cat's Tail"
+    },
+    dori: {
+        name: "Dori",
+        weapon: "Claymore",
+        element: "Electro",
+        region: "Sumeru",
+        version: "3.0",
+        talents: "Ingenuity",
+        boss: "Bloodjade Branch",
+        stat: "HP",
+        affiliation: "The Palace of Alcazarzaray"
+    },
 };
 
 // export default characterInfo;
