@@ -549,6 +549,28 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "Haravatat"
     },
+    faruzan: {
+        name: "Faruzan",
+        weapon: "Bow",
+        element: "Anemo",
+        region: "Sumeru",
+        version: "3.3",
+        talents: "Admonition",
+        boss: "Puppet Strings",
+        stat: "ATK",
+        affiliation: "Haravatat"
+    },
+    fischl: {
+        name: "Fischl",
+        weapon: "Bow",
+        element: "Electro",
+        region: "Monstadt",
+        version: "1.0",
+        talents: "Ballad",
+        boss: "Adventurers' Guild",
+        stat: "ATK",
+        affiliation: "Adventurers' Guild"
+    },
 };
 
 // export default characterInfo;
