@@ -571,6 +571,28 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "Adventurers' Guild"
     },
+    fischl: {
+        name: "Fischl",
+        weapon: "Bow",
+        element: "Electro",
+        region: "Monstadt",
+        version: "1.0",
+        talents: "Ballad",
+        boss: "Adventurers' Guild",
+        stat: "ATK",
+        affiliation: "Adventurers' Guild"
+    },
+    freminet: {
+        name: "Freminet",
+        weapon: "Claymore",
+        element: "Cryo",
+        region: "Fontaine",
+        version: "4.0",
+        talents: "Justice",
+        boss: "World­span Fern",
+        stat: "ATK",
+        affiliation: "Hotel Bouffes d'ete"
+    },
 };
 
 // export default characterInfo;
