@@ -538,6 +538,17 @@ const characterInfo = {
         stat: "HP",
         affiliation: "The Palace of Alcazarzaray"
     },
+    faruzan: {
+        name: "Faruzan",
+        weapon: "Bow",
+        element: "Anemo",
+        region: "Sumeru",
+        version: "3.3",
+        talents: "Admonition",
+        boss: "Puppet Strings",
+        stat: "ATK",
+        affiliation: "Haravatat"
+    },
 };
 
 // export default characterInfo;
