@@ -593,6 +593,72 @@ const characterInfo = {
         stat: "ATK",
         affiliation: "Hotel Bouffes d'ete"
     },
+    gaming: {
+        name: "Gaming",
+        weapon: "Claymore",
+        element: "Pyro",
+        region: "Liyue",
+        version: "4.4",
+        talents: "Prosperity",
+        boss: "Lightless Mass",
+        stat: "ATK",
+        affiliation: "Sword and Strongbox Secure Transport Agency (Faction)"
+    },
+    gorou: {
+        name: "Gorou",
+        weapon: "Bow",
+        element: "Geo",
+        region: "Inazuma",
+        version: "2.3",
+        talents: "Light",
+        boss: "Molten Moment",
+        stat: "Geo DMG Bonus",
+        affiliation: "Watatsumi Island"
+    },
+    heizou: {
+        name: "Heizou",
+        weapon: "Catalyst",
+        element: "Anemo",
+        region: "Inazuma",
+        version: "2.8",
+        talents: "Transience",
+        boss: "The Meaning of Aeons",
+        stat: "Anemo DMG Bonus",
+        affiliation: "Tenryou Commission"
+    },
+    kaeya: {
+        name: "Kaeya",
+        weapon: "Sword",
+        element: "Cryo",
+        region: "Monstadt",
+        version: "1.0",
+        talents: "Ballad",
+        boss: "Spirit Locket of Boreas",
+        stat: "Energy Recharge",
+        affiliation: "Knights of Favonius"
+    },
+    kaeya: {
+        name: "Kaeya",
+        weapon: "Sword",
+        element: "Cryo",
+        region: "Monstadt",
+        version: "1.0",
+        talents: "Ballad",
+        boss: "Spirit Locket of Boreas",
+        stat: "Energy Recharge",
+        affiliation: "Knights of Favonius"
+    },
+    kaveh: {
+        name: "Kaveh",
+        weapon: "Claymore",
+        element: "Dendro",
+        region: "Sumeru",
+        version: "3.6",
+        talents: "Ingenuity",
+        boss: "Primor­dial Green­bloom",
+        stat: "Elemental Mastery",
+        affiliation: "Independent Design Studio"
+    },
 };
 
 // export default characterInfo;
