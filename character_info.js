@@ -659,6 +659,28 @@ const characterInfo = {
         stat: "Elemental Mastery",
         affiliation: "Independent Design Studio"
     },
+    kirara: {
+        name: "Kirara",
+        weapon: "Sword",
+        element: "Dendro",
+        region: "Inazuma",
+        version: "3.7",
+        talents: "Transience",
+        boss: "Ever­amber",
+        stat: "HP",
+        affiliation: "Komaniya Express"
+    },
+    shinobu: {
+        name: "Shinobu",
+        weapon: "Sword",
+        element: "Electro",
+        region: "Inazuma",
+        version: "2.7",
+        talents: "Elegance",
+        boss: "Tears of the Calamitous God",
+        stat: "HP",
+        affiliation: "Arataki Gang"
+    },
 };
 
 // export default characterInfo;
