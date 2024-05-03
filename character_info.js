@@ -681,6 +681,39 @@ const characterInfo = {
         stat: "HP",
         affiliation: "Arataki Gang"
     },
+    layla: {
+        name: "Layla",
+        weapon: "Sword",
+        element: "Cryo",
+        region: "Sumeru",
+        version: "3.2",
+        talents: "Ingenuity",
+        boss: "Mirror of Mushin",
+        stat: "HP",
+        affiliation: "Rtawahist"
+    },
+    lisa: {
+        name: "Lisa",
+        weapon: "Catalyst",
+        element: "Electro",
+        region: "Mondstadt",
+        version: "1.0",
+        talents: "Ballad",
+        boss: "Dvalin's Claw",
+        stat: "Elemental Mastery",
+        affiliation: "Knights of Favonius"
+    },
+    lynette: {
+        name: "Lynette",
+        weapon: "Sword",
+        element: "Anemo",
+        region: "Fontaine",
+        version: "4.0",
+        talents: "Order",
+        boss: "Ever­amber",
+        stat: "Anemo DMG Bonus",
+        affiliation: "Hotel Bouffes d'ete"
+    },
 };
 
 // export default characterInfo;
